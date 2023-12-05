@@ -55,16 +55,15 @@ h1 {
 
 .clearfix {
   clear: both;
-  width: 100%;
-  height: 150px;
+  height: 110px;
 }
 
 .col-1-3 {
   float: left;
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 20px);
+  margin: 10px;
   height: 90%;
   background-color: #0f0e17;
-  padding: 15px;
 }
 .male1,
 .female1,
@@ -72,6 +71,7 @@ h1 {
 .female2,
 .male3,
 .female3 {
+  float: left;
   height: 100%;
 }
 h3 {
@@ -79,9 +79,7 @@ h3 {
   padding-bottom: 15px;
 }
 .description {
-  padding: 15px;
   color: white;
   display: block;
-  float: right;
   font-family: "Fredoka", sans-serif;
 }
